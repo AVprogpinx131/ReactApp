@@ -16,10 +16,6 @@ const Counter = () => {
     setCounterValue(0);
   };
 
-  const toggle = () => {
-    setBtnState(!btnState);
-  };
-
   let shouldDisplayBtn = counterValue !== 0;
 
   return (
